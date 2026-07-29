@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": [],
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "useDefineForClassFields": false,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": false
+  },
+  "files": ["src/main.ts"],
+  "include": ["src/**/*.ts"]
+}
